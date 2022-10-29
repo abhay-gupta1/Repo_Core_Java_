@@ -1,14 +1,14 @@
-package Operators_7;
+package Loops_Flow_Control_9;
 
+// How many times 'Hello' is printed?
 public class Practice_Question1 {
 	public static void main(String[] args) {
 		
-		int x = 2, y = 5;
-		
-		int exp1 = (x * y / x);
-		int exp2 = (x * (y / x));
-		
-		System.out.print(exp1 + ",");
-		System.out.print(exp2);
+		for(int i = 0; i<5; i++) {
+			 
+			System.out.println("Hello");
+			
+			i+=2;
+		}
 	}
 }
