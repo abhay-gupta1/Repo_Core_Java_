@@ -1,14 +1,25 @@
-package Operators_7;
+package Loops_Flow_Control_9;
+
+// Write a program to print the multiplication table of a number N,entered by the user.
+import java.util.*;
 
 public class Practice_Question4 {
 	public static void main(String[] args) {
 		
-		int x = 9, y = 12;
+		Scanner sc = new Scanner(System.in);
 		
-		int a = 2, b = 4, c = 6;
+		System.out.println("Enter the number for which you need to create multiplication table:");
 		
-		int exp = 4/3 * (x + 34) + 9 * (a + b * c) + (3 + y * (2 + a)) / (a + b * y);
-	
-		System.out.println(exp);
+		int n = sc.nextInt();
+		//int table;
+		
+		for(int i = 1; i <= 10; i++) {
+			
+			//table = n * i;
+			
+			System.out.println(n +" "+"*"+" "+ i +" "+ "=" +" "+ n * i);
+			
+			//System.out.println(table);
+		}
 	}
 }
